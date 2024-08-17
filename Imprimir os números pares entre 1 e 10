@@ -1,0 +1,22 @@
+'''Atividade Prática:
+Escreva um programa que conte de 1 a 10 e imprima apenas os números pares.
+'''
+========================
+primeira forma:
+
+x=0
+i=0
+for i in range(10):
+   
+    i+=i
+    x=x+2
+    if x<=10:    
+     print(x)
+
+
+=========================
+segunda forma: 
+
+for i in range(1,11):
+  if i%2==0:
+    print(i)
