@@ -1,0 +1,17 @@
+'''
+Atividade Prática:
+Escreva um programa que peça a temperatura atual e diga se está quente (acima de
+30°C), frio (abaixo de 15°C) ou agradável (entre 15°C e 30°C).
+'''
+
+
+temp=float(input("Qual a temperatura neste momento? "))
+
+if temp>=30:   
+    print("Agora está quente!")
+       
+elif temp<=15:
+    print("Está frio neste memento!")
+
+elif temp<30 or temp>15:   
+    print("Temperatura agradável!")
