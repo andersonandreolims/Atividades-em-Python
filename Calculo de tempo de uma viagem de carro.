@@ -1,0 +1,15 @@
+'''
+Escreva um programa que calcule o tempo de uma viagem de carro.
+Pergunte a distância a percorrer e a velocidade média esperada para a viagem.
+'''
+
+velocidadeM=float(input("Qual a velocidade média do carro? "))
+distancia=float(input("Qual a distância percorrida? "))
+tempo=distancia/velocidadeM
+
+converter=tempo*3600 #convertendo de horas p/ segudos.
+horas=int(converter/3600) 
+minutos=int((converter%3600)/60)
+segundos=int((converter%3600)%60)
+
+print("O tempo de Viagem é de %d horas %d minutos e %d segundos." % (horas, minutos, segundos))
