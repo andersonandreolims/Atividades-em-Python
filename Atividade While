@@ -1,0 +1,14 @@
+'''
+Atividade Prática:
+Crie um programa que pergunte ao usuário por números até que ele digite zero e
+então mostre a soma dos números digitados.
+'''
+
+soma=0
+while True:
+  x=int(input("Digiete um número!"))
+  if x==0:
+    break
+  soma=soma+x
+
+print("A soma dos números digitados é: ", soma)
