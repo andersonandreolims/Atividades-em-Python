@@ -1,0 +1,15 @@
+'''
+Atividade Prática:
+Crie uma lista de compras que permita ao usuário adicionar itens e, em seguida,
+imprimir a lista completa.
+'''
+
+lista_de_compras=[]
+
+while True:
+    item=input("Adicionar Item a Lista: ")
+    
+    if item=="s":
+        break
+    lista_de_compras.append(item)
+print(lista_de_compras)
