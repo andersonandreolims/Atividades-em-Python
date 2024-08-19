@@ -1,0 +1,9 @@
+'''
+Atividade Prática:
+Escreva um programa que peça uma frase ao usuário e conte quantas vezes uma letra
+específica aparece.
+'''
+
+texto=input("Insira a frase: ")
+
+print(texto.count(input("Qual letras a ser contada? ") ))
