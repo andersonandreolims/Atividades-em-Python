@@ -1,0 +1,15 @@
+'''
+Atividade Prática:
+Escreva uma função que receba um número e retorne se ele é par ou ímpar.
+'''
+
+def impar_par(n):
+  if n%2==0:
+   return "Par"
+  else:
+    return "Ímpar"
+
+x=int(input("Digite um número: "))
+
+print(impar_par(x))
+
