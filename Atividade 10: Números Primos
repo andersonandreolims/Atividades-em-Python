@@ -1,0 +1,17 @@
+'''Atividade Prática:
+Crie um programa que encontre e imprima todos os números primos em um intervalo
+definido pelo usuário.
+'''
+
+num=int(input("Digite o número: "))
+
+if num<=1:
+    print("Número inserido não é primo. ")
+else:
+
+    for i in range(2, num):
+        if (num%i)==0:
+            print(num,"não é um número primo. ")
+            break
+        else:
+            print(num,"não tem divisão exata por ",i, "Logo, é um número primo. ")
